@@ -1,0 +1,16 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    color: #29B1DD!important;
+}
+
+
+nav{
+    background-color: #29B1DD;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+}
