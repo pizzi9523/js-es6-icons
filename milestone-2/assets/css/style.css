@@ -37,3 +37,14 @@ nav{
     background-color: white;
 }
 
+.animal {
+    color: blue;
+}
+
+.vegetable {
+    color: #ff9100;
+}
+
+.user {
+    color: #800080;
+}
