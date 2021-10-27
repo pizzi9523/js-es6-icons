@@ -14,3 +14,20 @@ nav{
     line-height: 50px;
     color: white;
 }
+
+.container-fluid {
+    background-color: lightgray;
+}
+
+
+.my_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border-radius: 15px;
+    width: 250px;
+    height: 100px;
+    background-color: white;
+}

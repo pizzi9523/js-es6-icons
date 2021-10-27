@@ -98,3 +98,18 @@ const icons = [
 ];
 
 
+
+icons.forEach(icon => {
+
+    const card =
+        `
+        <div class="col">
+            <div class="my_card text-center">
+                <i class="${icon.family} ${icon.prefix}${icon.name} ${icon.type} fa-2x"></i>
+                <div class="icon_name">
+                    <dic>${icon.name.toUpperCase()}</div>
+                </div>
+            </div>
+        </div>`
+    document.querySelector('.row').insertAdjacentHTML('beforeend', card)
+});
